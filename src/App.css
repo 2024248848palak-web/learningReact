@@ -1,0 +1,44 @@
+/* Remove default space */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full page */
+html, body {
+  height: 100%;
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container full height */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main takes full space */
+main {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
